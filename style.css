@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900');
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+section {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron {
+	background-image: url(1.jpg);
+	height: 600px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	text-align: center;
+}
+
+nav {
+	color: rgb(241, 237, 237);
+}
+
+nav ul {
+	display: flex;
+	flex-flow: row wrap;
+	border-bottom: 1px solid rgb(241, 237, 237);
+	justify-content: flex-end;
+	padding: 0% 10%;
+}
+
+nav li {
+	list-style: none;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 2%;
+	font-weight: 200;
+	;
+}
+
+nav .logo {
+	margin-right: auto;
+}
+
+nav .icon i {
+	margin-right: 10%;
+}
+
+nav .icon i:hover {
+	color: orangered;
+	cursor: pointer;
+}
+
+.jumbotron h1 {
+	font-size: 120px;
+	letter-spacing: 2px;
+	color: rgb(241, 237, 237);
+	font-weight: 300;
+}
+
+.jumbotron span {
+	color: orangered;
+	letter-spacing: 1px;
+}
+
+.jumbotron p {
+	color: #fcd088;
+	letter-spacing: 5px;
+	font-size: 25px;
+	font-weight: 300;
+	margin-top: 6%;
+}
+
+.jumbotron button {
+	padding: 10px 35px;
+	margin-top: 1%;
+	background-color: transparent;
+	border: 1px solid #fcd088;
+	color: rgb(241, 237, 237);
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 300;
+}
+
+.text-center {
+	margin: 3%;
+	font-weight: 300;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+.first {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 0% 15%;
+	justify-content: space-between;
+	margin-top: 3%;
+}
+
+.first .content {
+	flex-basis: 31%;
+	text-align: center;
+}
+
+.first .content i {
+	color: #fcd088;
+	font-size: 40px;
+}
+
+.first .content h2 {
+	font-weight: 200;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 2px;
+	margin: 3%;
+}
+
+.first .content p {
+	font-weight: 300;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 1px;
+}
+
+.second-p {
+	margin-bottom: 5%;
+}
+
+.second {
+	display: flex;
+	padding: 5% 0%;
+	background-color: #202529;
+}
+
+.second .content {
+	flex-basis: 50%;
+}
+
+.white {
+	color: rgb(241, 237, 237);
+}
+
+.second .content p,
+.fifth p {
+	color: #656d6d;
+	font-weight: 300;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 1px;
+	padding: 0 5% 5%;
+	text-align: justify;
+}
+
+.second .content h3 {
+	font-weight: 300;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: rgb(241, 237, 237);
+}
+
+.second .content i {
+	margin: 1% 4%;
+	color: #656d6d;
+}
+
+.second .content .icon {
+	margin-left: 20%;
+}
+
+.second .content .icon .active {
+	color: #fcd088;
+}
+
+.bg-color {
+	background-color: #242a30;
+	padding: 3%;
+	font-weight: 300;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 4px;
+	text-align: center;
+	color: rgb(241, 237, 237);
+}
+
+.third {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	background-color: #242a30;
+	padding: 0% 15%;
+	padding-bottom: 5%;
+}
+
+.third .content {
+	flex-basis: 21%;
+	text-align: center;
+	color: #fcd088;
+}
+
+.third .content i {
+	font-size: 40px;
+	margin-bottom: 4%;
+}
+
+.third .content p {
+	color: #656d6d;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 1px;
+	font-size: 30px;
+	font-weight: 200;
+	border-top: 1px solid #656d6d;
+}
+
+.fourth {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 0% 15%;
+	margin-bottom: 4%;
+}
+
+.fourth .content {
+	flex-basis: 32%;
+	text-align: center;
+}
+
+.fourth .content h3 {
+	background-color: #242a30;
+	padding: 4%;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: #656d6d;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.fourth .content p {
+	color: #202529;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	padding: 3%;
+	letter-spacing: 2px;
+}
+
+.fifth {
+	background-color: #242a30;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.fifth .content {
+	flex-basis: 50%;
+	text-align: center;
+}
+
+.fifth .right {
+	background-color: #fcd088;
+}
+
+.fifth .white {
+	margin: 6%;
+}
+
+.fifth .right h1,
+.fifth .left h1,
+.fifth .right2 h1 {
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-size: 100px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin-top: 5%;
+	color: #202529;
+}
+
+.fifth .right h2,
+.fifth .left h2,
+.fifth .right2 h2 {
+	font-weight: 300;
+	font-size: 50px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: #202529;
+	margin-bottom: 7%;
+}
+
+.fifth .left {
+	background-color: #ddae76;
+}
+
+.fifth .right2 {
+	background-color: #cd9e6a;
+}
+
+.sixth {
+	text-align: center;
+	background-color: #202529;
+}
+
+.sixth .adjust {
+	margin: 0%;
+	padding: 2%;
+}
+
+.sixth p {
+	color: white;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 200;
+	padding-bottom: 3%;
+}
+
+.seventh {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.seventh .content {
+	margin-top: -5px;
+	flex-basis: 25%;
+	overflow: hidden;
+}
+
+.eight {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	padding: 0% 15%;
+}
+
+.eight .content {
+	border: 1px solid rgb(238, 233, 233);
+	flex-basis: 33%;
+	clip-path: polygon(100% 0, 100% 90%, 26% 90%, 20% 100%, 15% 90%, 0 90%, 0 0);
+	background-color: #202529;
+}
+
+.eight .content p {
+	padding: 3%;
+	text-align: justify;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 200;
+	padding-bottom: 10%;
+	color: #656d6d;
+}
+
+.custom .content {
+	border: none;
+	background-color: transparent;
+	clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0% 100%, 0% 100%, 0 100%, 0 0);
+}
+
+.custom .content img {
+	width: 40%;
+}
+
+.client {
+	background-image: url(1.jpg);
+	height: 350px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	text-align: center;
+}
+
+.client h1 {
+	color: white;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 200;
+	font-size: 45px;
+	padding-top: 3%;
+}
+
+.client ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	padding: 5% 15%;
+}
+
+.client li {
+	color: white;
+	letter-spacing: 1px;
+	font-weight: 200;
+	font-size: 40px;
+}
+
+footer {
+	background-color: #202529;
+	color: white;
+	padding: 5% 15%;
+}
+
+footer h1 {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 200;
+}
+
+footer p {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 200;
+}
